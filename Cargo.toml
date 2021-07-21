@@ -19,3 +19,7 @@ clap = "2.33"
 fnv = "1.0"
 scalable_bloom_filter = "0.1"
 twox-hash = "1.6"
+
+[lib]
+name = "runiq"
+path = "src/lib.rs"
