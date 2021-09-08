@@ -1,9 +1,9 @@
 [package]
-name = "runiq"
+name = "runiq-lib"
 version = "1.2.2" # remember to update html_root_url
-authors = ["Isaac Whitfield <iw@whitfin.io>"]
+authors = ["Isaac Whitfield <iw@whitfin.io>", "Julien Abadji <julien.e.abadji@gmail.com>"]
 description = "An efficient way to filter duplicate lines from input, à la uniq."
-repository = "https://github.com/whitfin/runiq"
+repository = "https://github.com/uinelj/runiq"
 keywords = ["filtering", "logging", "unique"]
 categories = ["algorithms", "command-line-utilities", "text-processing"]
 readme = "README.md"
@@ -11,7 +11,7 @@ edition = "2018"
 license = "MIT"
 
 [badges]
-travis-ci = { repository = "whitfin/runiq" }
+travis-ci = { repository = "uinelj/runiq" }
 
 [dependencies]
 bytelines = "2.2"
